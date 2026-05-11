@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(2, 40, 73);  
+color:rgb(175, 194, 241) 
+
+}
+strong{
+    color:rgb(22, 143, 249)
+}
+.contaimer{
+    display:flex;
+    justify-content: center; /* centraliza horizoltamente */
+    align-items:center; /* centralizar  verticalmente */
+     
+}
