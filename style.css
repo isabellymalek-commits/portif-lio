@@ -1,26 +1,28 @@
-body{
-    background-color: rgb(20, 155, 246);  
-color:rgb(24, 129, 250) 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-}
-strong{
-    color:rgb(56, 162, 254)
-}
-.contaimer{
-    display:flex;
-    justify-content: center; /* centraliza horizoltamente */
-    align-items:center; /* centralizar  verticalmente */
-     
-}
-<p style="font-size: 18px; line-height: 1.5; color: #0c09c3; margin-bottom: 32px;">
-      Olá! Sou Joana Santos, desenvolvedora Front-end <br>
-      com especialidade em React, HTML e CSS. Ajudo <br>
-      pequenos negócios e designers a colocarem em <br>
-      prática boas ideias. Vamos conversar?
-    </p>
+    <header></header>
 
-    <!-- Bloco dos Botões -->
-    <div style="display: flex; gap: 16px;">
-      <a href="#" style="background-color: #22D4FD; color: #000000; font-weight: bold; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-size: 16px;">Instagram</a>
-      <a href="#" style="background-color: #22D4FD; color: #000000; font-weight: bold; text-decoration: none; padding: 12px 32px; border-radius: 8px; font-size: 16px;">GitHub</a>
-    </div>
+    <main>
+        <div class="caixa-texto">
+            <h1>Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
+            <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            
+            <a href="https://instagram.com" class="botao-social" target="_blank">Instagram</a>
+            <a href="isabellymalek-commits" class="botao-social" target="_blank">Github</a>
+        </div>
+        
+        <img src="Imagem (1).png"Foto de Joana Santos">
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
